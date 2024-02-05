@@ -21,6 +21,7 @@ public class TakeScreenShotDemo {
 		System.out.println("Your Screen Shot On This Path:"+path);
 		File destination=new File(path);
 		FileHandler.copy(source, destination);
+		
 		 
 	}
 }
